@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1000px!important;
+}
+p{
+    font-size: 12px;
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif!important;
+}
+.bg-primary{
+    background-color: #68B984 !important;
+    font-family:Verdana, Geneva, Tahoma, sans-serif!important;
+
+}
+.form-control {
+    height: 36px;
+    background: #fff;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 14px;
+    border-radius: 2px;
+    box-shadow: none !important;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.contactForm .form-control {
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0;
+}
+
+
+.form-control:focus,.form-control:active {
+    border-color: #FED049 !important;
+}
+.form-label {
+    color: #000;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+.btn.btn-primary {
+    background: #68B984 !important;
+    border-color: #68B984 !important;
+    color: #fff;
+    width: 50%;
+   
+    border-radius: 0!important;
+    
+}
+.btn.btn-primary:hover{
+    background-color: #FED049!important;
+}
+
+.bi{
+    font-size: 50px;
+}
+@media only screen and (max-width: 600px) {
+    .container{
+        width: 100%!important;
+        padding-bottom: 207px!important;
+    }
+  }
+
+  .d-flex{
+    font-size: 13px;
+    padding: 5px;
+  }
+
+  .card{
+    
+    background: #fff;
+    align-items: center;
+    width: 12rem; 
+    height: 12rem;
+   margin-top: 25px;
+   margin: auto;
+    
+  }
+  .passdetails{
+    margin-bottom: 50px;
+  }
+  
+  .navbar{
+    background: #3D5656; 
+  }
+.card{
+    margin: 20px;
+}
+  
+  
